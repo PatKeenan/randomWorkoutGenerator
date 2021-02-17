@@ -31,7 +31,7 @@ const workouts = {
         return this._muscleGroups.cardio;
     },
     get allMuscles(){
-        return this.muscleGroups
+        return this._muscleGroups
     },
     get allWorkouts(){
         if (!this._muscleGroups){
